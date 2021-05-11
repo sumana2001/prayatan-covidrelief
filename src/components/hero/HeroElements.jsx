@@ -39,7 +39,6 @@ export const ImgWrapper = styled.div`
 export const TopLine = styled.div`
   color: #E8B828;
   font-size: 18px;
-  line-height: 16px;
   font-weight: 700;
   letter-spacing: 1.4px;
 `;
@@ -57,9 +56,7 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
   font-size: 48px;
-  line-height: 1.1;
   font-weight: 600;
   color: #1c2237;
 `;

@@ -31,7 +31,7 @@ export function Navbar(props) {
   return (
     <NavbarContainer>
       <LeftSection>
-        <h3 style={{color:"#000"}}>Prayatan - Ek Awaaz</h3>
+        <h1 style={{color:"#000"}}>Prayatan - Ek Awaaz</h1>
       </LeftSection>
     </NavbarContainer>
   );
