@@ -24,7 +24,7 @@ export const Container = styled.div`
 export default function HomeCards() {
     return (
         <>
-            <InfoSec>
+            <InfoSec id="#donate">
                 <Container>
                     <AllCards>
                         <HomeCard />
