@@ -1,26 +1,30 @@
 import React from 'react'
-import {
-    Container,
-    InfoSec,
-} from '.././InfoSection/InfoSection.elements';
 import HomeCard from './HomeCard';
 import styled from 'styled-components';
 
 export const AllCards = styled.div`
     justify-content: center;
-    padding: 0em 3em 0em 3em;
     width: 100%;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 `
+export const InfoSec = styled.div`
+  color: #000;
+  background: #fff;
+  margin-left:0;
+`;
+export const Container = styled.div`
+  z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+`;
 
-export default function HomeCards({
-    lightBg,
-}) {
+export default function HomeCards() {
     return (
         <>
-            <InfoSec lightBg={lightBg}>
+            <InfoSec>
                 <Container>
                     <AllCards>
                         <HomeCard />
